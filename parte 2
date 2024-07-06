@@ -1,0 +1,14 @@
+print("Insira o primeiro digito: ")
+numero1 = int(input())
+print("Agora insira o segundo digito: ")
+numero2 = int(input())
+print("agora insira qual o operador desejado para esse calculo:")
+operador = input()
+if operador == "+":
+    print(numero1 + numero2)
+elif operador == "-":
+    print(numero1 - numero2)
+elif operador == "*":
+    print(numero1 * numero2)
+elif operador == "/":
+    print(numero1 / numero2)
